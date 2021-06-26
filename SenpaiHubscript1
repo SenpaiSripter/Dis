@@ -1,0 +1,143 @@
+-- Scripted By Ashly Chat me If There is AnyThing Wrong 
+-- Make Sure to Press AntiBan To Make Sure That your Not gonna Ban
+
+-- Join my Friend Discord https://discord.gg/xjTMBJe6tg
+
+local ScreenGui = Instance.new("ScreenGui")
+local frame = Instance.new("Frame")
+local GiveCash = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
+local Minimize = Instance.new("TextButton")
+local TextButton = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local AntiBan = Instance.new("TextButton")
+local openframe = Instance.new("Frame")
+local TextButton_2 = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ScreenGui.ResetOnSpawn = false
+
+frame.Name = "frame"
+frame.Parent = ScreenGui
+frame.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+frame.Position = UDim2.new(0.343829751, 0, 0.177181348, 0)
+frame.Size = UDim2.new(0, 246, 0, 340)
+frame.Active = true
+frame.Draggable = true
+
+GiveCash.Name = "GiveCash"
+GiveCash.Parent = frame
+GiveCash.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GiveCash.BackgroundTransparency = 1.000
+GiveCash.Position = UDim2.new(0.069244653, 0, 0.264291257, 0)
+GiveCash.Size = UDim2.new(0, 213, 0, 64)
+GiveCash.Font = Enum.Font.SourceSansSemibold
+GiveCash.Text = "GiveCoin"
+GiveCash.TextColor3 = Color3.fromRGB(0, 255, 0)
+GiveCash.TextScaled = true
+GiveCash.TextSize = 14.000
+GiveCash.TextWrapped = true
+GiveCash.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/SenpaiSripter/Destruction-Simulator-Script/main/%F0%9F%92%A5%20Destruction%20Simulator%20Script%20By%20SenpaiScripter" , true))()
+end)
+
+TextLabel.Parent = frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.0724139959, 0, -0.0126220705, 0)
+TextLabel.Size = UDim2.new(0, 164, 0, 52)
+TextLabel.Font = Enum.Font.SourceSansSemibold
+TextLabel.Text = "DevSenpai"
+TextLabel.TextColor3 = Color3.fromRGB(255, 85, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+Minimize.Name = "Minimize"
+Minimize.Parent = frame
+Minimize.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Minimize.BackgroundTransparency = 1.000
+Minimize.Position = UDim2.new(0.76360327, 0, -0.00962852221, 0)
+Minimize.Size = UDim2.new(0, 56, 0, 50)
+Minimize.Font = Enum.Font.SourceSans
+Minimize.Text = "X"
+Minimize.TextColor3 = Color3.fromRGB(255, 255, 255)
+Minimize.TextScaled = true
+Minimize.TextSize = 14.000
+Minimize.TextWrapped = true
+
+TextButton.Parent = frame
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BackgroundTransparency = 1.000
+TextButton.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextButton.Position = UDim2.new(0.0724931434, 0, 0.852941155, 0)
+TextButton.Size = UDim2.new(0, 210, 0, 42)
+TextButton.Font = Enum.Font.SourceSansBold
+TextButton.Text = "Ashly#1484"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+
+UICorner.CornerRadius = UDim.new(0, 30)
+UICorner.Parent = frame
+
+AntiBan.Name = "AntiBan"
+AntiBan.Parent = frame
+AntiBan.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AntiBan.BackgroundTransparency = 1.000
+AntiBan.Position = UDim2.new(0.069244653, 0, 0.534879506, 0)
+AntiBan.Size = UDim2.new(0, 213, 0, 64)
+AntiBan.Font = Enum.Font.SourceSansSemibold
+AntiBan.Text = "AntiBan"
+AntiBan.TextColor3 = Color3.fromRGB(255, 255, 255)
+AntiBan.TextScaled = true
+AntiBan.TextSize = 14.000
+AntiBan.TextWrapped = true
+
+openframe.Name = "openframe"
+openframe.Parent = ScreenGui
+openframe.Active = true
+openframe.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+openframe.BackgroundTransparency = 3.000
+openframe.Position = UDim2.new(0, 0, 0.555888772, 0)
+openframe.Size = UDim2.new(0, 108, 0, 57)
+openframe.Visible = false
+
+TextButton_2.Parent = openframe
+TextButton_2.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+TextButton_2.Size = UDim2.new(0, 95, 0, 57)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "OPEN"
+TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.TextScaled = true
+TextButton_2.TextSize = 14.000
+TextButton_2.TextWrapped = true
+
+UICorner_2.CornerRadius = UDim.new(0, 15)
+UICorner_2.Parent = TextButton_2
+
+-- Scripts:
+
+local function ECRL_fake_script() -- Minimize.LocalScript 
+	local script = Instance.new('LocalScript', Minimize)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.openframe.Visible = true
+	end)
+end
+coroutine.wrap(ECRL_fake_script)()
+local function RHZIPWM_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.frame.Visible = true
+	end)
+end
+coroutine.wrap(RHZIPWM_fake_script)()
